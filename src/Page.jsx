@@ -61,13 +61,9 @@ export default function Page() {
             </table>
 
             <div className="pagination">
-                <button onClick={prevPage} disabled={currentPage === 1}>
-                    Previous
-                </button>
+                <button onClick={prevPage} disabled={currentPage === 1}><h4>Previous</h4></button>
                 <div className="page-box">{currentPage}</div>
-                <button onClick={nextPage} disabled={currentPage === totalPages}>
-                    Next
-                </button>
+                <button onClick={nextPage} disabled={currentPage === totalPages}><h4>Next</h4></button>
             </div>
         </div>
     );
