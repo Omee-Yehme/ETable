@@ -43,10 +43,7 @@ button {
   border-radius: 5px;
 }
 
-button:disabled {
-  background-color: #cccccc;
-  cursor: not-allowed;
-}
+
 
 .page-box {
   padding: 8px 12px;
